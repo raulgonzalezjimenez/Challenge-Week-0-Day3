@@ -1,5 +1,3 @@
-export { strictEquals };
-
 function strictEquals(a, b) {
   if (Object.is(a, b)) {
     return true;
@@ -15,3 +13,6 @@ function strictEquals(a, b) {
   }
   return false;
 }
+export { strictEquals };
+
+// diferente de hacerlo al ejercicio anterior
